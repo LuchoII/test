@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="calcu.css">
+  </head>
+  <title>calculator</title>
+
+  <body>
+
+    <div id="calculator">
+      <form>
+        <input type="text" id="display" enabled><br>
+        <input type="button" value="C" id="keys" onclick="agregarPantalla('c')">
+        <input type="button" value="<--" id="keys" onclick="borrarAnterior()">
+        <input type="button" value="/" id="keys" onclick="agregarPantalla('/')">
+        <br>
+        <input type="button" value="7" id="keys" onclick="agregarPantalla('7')">
+        <input type="button" value="8" id="keys" onclick="agregarPantalla('8')">
+        <input type="button" value="9" id="keys" onclick="agregarPantalla('9')">
+        <input type="button" value="-" id="keys" onclick="agregarPantalla('-')"><br>
+        <input type="button" value="4" id="keys" onclick="agregarPantalla('4')">
+        <input type="button" value="5" id="keys" onclick="agregarPantalla('5')">    
+        <input type="button" value="6" id="keys" onclick="agregarPantalla('6')">
+        <input type="button" value="*" id="keys" onclick="agregarPantalla('*')"><br>
+        <input type="button" value="1" id="keys" onclick="agregarPantalla('1')">
+        <input type="button" value="2" id="keys" onclick="agregarPantalla('2')">
+        <input type="button" value="3" id="keys" onclick="agregarPantalla('3')">
+        <input type="button" value="+" id="keys" onclick="agregarPantalla('+')">
+        <br>
+        <input type="button" value="0" id="keys" onclick="agregarPantalla('0')">
+        <input type="button" value="." id="keys" onclick="agregarPantalla('.')">
+        <input type="button" value="=" id="equal" onclick="igual()">
+      </form>
+    </div>
+    <script src="calcu.js"></script>
+  </body>
+</html>
